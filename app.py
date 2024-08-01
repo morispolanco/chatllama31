@@ -18,7 +18,7 @@ def get_ai_response(messages):
     data = {
         "model": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
         "messages": messages,
-        "max_tokens": 512,
+        "max_tokens": 2512,
         "temperature": 0.7,
         "top_p": 0.7,
         "top_k": 50,
